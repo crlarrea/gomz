@@ -27,6 +27,10 @@ body {
   position: relative;
   font-family: "Extra Light";
 }
+body a {
+  color: white;
+  text-decoration: none;
+}
 
 body,
 header,
@@ -35,12 +39,9 @@ footer {
   display: flex;
 }
 
-header {
-  flex: 0 0 10%;
-}
-
 main {
-  flex: 1 0 70%;
+  flex: 1 1 70%;
+  justify-content: center;
 }
 
 footer {

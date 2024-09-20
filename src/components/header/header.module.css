@@ -1,5 +1,19 @@
 .header {
+  flex: 0 0 5%;
   background-color: rgba(0, 0, 255, 0.3);
+  padding: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+.header nav {
+  flex: 0 0 50%;
+}
+.header nav ul {
+  display: inherit;
+  justify-content: space-evenly;
+  flex: 0 0 100%;
+  display: flex;
+  list-style-type: none;
 }
 
 /*# sourceMappingURL=header.module.css.map */

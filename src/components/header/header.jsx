@@ -12,6 +12,15 @@ export default function Header() {
           <li>
             <Link href="/tour">tour</Link>
           </li>
+          <li>
+            <Link href="/videos">videos</Link>
+          </li>
+          <li>
+            <Link href="/music">musica</Link>
+          </li>
+          <li>
+            <Link href="/bio">bio</Link>
+          </li>
         </ul>
       </nav>
     </header>
