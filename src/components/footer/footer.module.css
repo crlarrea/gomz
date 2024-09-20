@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.footer article {
+  flex: 0 0 33%;
+}
+
+/*# sourceMappingURL=footer.module.css.map */

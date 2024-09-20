@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(black, 0.8);
+//   filter: blur(5px);
+
+  article {
+    flex: 0 0 33%;
+    
+  }
+}

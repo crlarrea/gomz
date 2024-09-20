@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Extra Light";
+  src: url("/fonts/Manrope-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "Extra Bold";
+  src: url("/fonts/Manrope-ExtraBold.ttf");
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  overflow: hidden;
+}
+body {
+  background-color: black;
+  // border: 1px solid red;
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  flex-flow: column nowrap;
+
+  color: white;
+  overflow: hidden;
+  position: relative;
+  font: {
+    family: "Extra Light";
+  }
+}
+
+body,
+header,
+main,
+footer {
+  // border: 1px solid red;
+  display: flex;
+}
+
+header {
+  flex: 0 0 10%;
+}
+main {
+  flex: 1 0 70%;
+}
+footer {
+  flex: 0 0 15%;
+}
