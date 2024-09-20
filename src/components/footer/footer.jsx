@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <article>
         <Link href="https://crlarrea.github.io">
-          crlarrea 
+          crlarrea &copy;{new Date().getFullYear()}
         </Link>
       </article>
       <Socials />
