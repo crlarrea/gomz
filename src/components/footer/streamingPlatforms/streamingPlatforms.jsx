@@ -1,13 +1,13 @@
-import styles from "./socials.module.css";
+import styles from "./streamingPlatforms.module.css";
 import { FaSpotify, FaYoutube, FaAmazon } from "react-icons/fa6";
 import { SiApplemusic } from "react-icons/si";
 
 import Link from "next/link";
 
-export default function Socials() {
+export default function streamingPlatforms() {
   return (
     <article>
-      <ul className={styles.socials}>
+      <ul className={styles.streamingPlatforms}>
         <li>
           <Link
             href="https://open.spotify.com/artist/7BLezVBmCyG6aFk101o7vA?si=TScO6EU2TAaQ0s0-qvAuQg&nd=1&dlsi=6a3661c7b73646b8"

@@ -1,5 +1,5 @@
 import styles from "./footer.module.css";
-import Socials from "./socials/socials";
+import StreamingPlatforms from "./streamingPlatforms/streamingPlatforms";
 import Contact from "./contact/contact";
 import Link from "next/link";
 export default function Footer() {
@@ -10,7 +10,7 @@ export default function Footer() {
           crlarrea &copy;{new Date().getFullYear()}
         </Link>
       </article>
-      <Socials />
+      <StreamingPlatforms/>
       <Contact />
     </footer>
   );
