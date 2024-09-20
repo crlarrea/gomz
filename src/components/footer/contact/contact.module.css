@@ -11,6 +11,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 100%;
+  border: 2px solid white;
 }
 .contact div img {
   width: 100%;
