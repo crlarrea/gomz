@@ -1,7 +1,7 @@
 import styles from "./contact.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import { FaInstagram, FaTiktok, FaFacebook, FaTwitter } from "react-icons/fa6";
+import { FaInstagram, FaTiktok, FaFacebook, FaSquareXTwitter } from "react-icons/fa6";
 export default function Contact() {
   return (
     <>
@@ -31,7 +31,7 @@ export default function Contact() {
               <FaFacebook />
             </Link>
             <Link href="https://twitter.com/soygomz" target="_blank">
-              <FaTwitter />
+              <FaSquareXTwitter />
             </Link>
           </li>
         </ul>
