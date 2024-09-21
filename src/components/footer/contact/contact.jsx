@@ -1,7 +1,7 @@
 import styles from "./contact.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import { FaInstagram, FaTiktok } from "react-icons/fa6";
+import { FaInstagram, FaTiktok, FaFacebook, FaTwitter } from "react-icons/fa6";
 export default function Contact() {
   return (
     <>
@@ -26,6 +26,12 @@ export default function Contact() {
             </Link>
             <Link href="https://www.tiktok.com/@soygomz" target="_blank">
               <FaTiktok />
+            </Link>
+            <Link href="https://www.facebook.com/soygomz" target="_blank">
+              <FaFacebook />
+            </Link>
+            <Link href="https://twitter.com/soygomz" target="_blank">
+              <FaTwitter />
             </Link>
           </li>
         </ul>

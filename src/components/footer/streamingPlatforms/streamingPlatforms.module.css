@@ -16,11 +16,13 @@
 .streamingPlatforms li:hover {
   transition: all 0.5s;
   border-color: white;
+  transform: translateY(-0.3rem);
+  filter: drop-shadow(0 0 1rem white);
 }
 .streamingPlatforms li a {
   display: inherit;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=streamingPlatforms.module.css.map */

@@ -27,6 +27,8 @@
         text: {
           transform: uppercase;
         }
+        user-select: none;
+        padding-left: 5rem;
         animation: glow 2s ease-in-out 0s infinite forwards alternate;
       }
     }
@@ -35,7 +37,8 @@
 
 @keyframes glow {
   0% {
-    opacity: 0.3;
+    opacity: 0.1;
+    filter: blur(3px);
   }
   100% {
     filter: blur(5px) drop-shadow(0 0 1rem white);
