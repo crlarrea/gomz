@@ -1,0 +1,15 @@
+.music {
+  flex: 0 0 100%;
+  display: inherit;
+  article {
+    flex: 0 0 50%;
+    display: inherit;
+    &:first-of-type {
+      background-color: #282828;
+      iframe {
+        
+        flex: 0 0 100%;
+      }
+    }
+  }
+}

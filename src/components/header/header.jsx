@@ -1,9 +1,16 @@
+"use client";
 import Link from "next/link";
 import styles from "./header.module.css";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
+  const pathName = usePathname();
   return (
-    <header className={styles.header}>
+    <header
+      className={`${styles.header}  ${
+        pathName === "/" ? styles.heroHeader : ""
+      }`}
+    >
       <nav>
         <ul>
           <li>
@@ -23,6 +30,10 @@ export default function Header() {
           </li>
         </ul>
       </nav>
+      <div>
+        <p>Muriendo en el cielo</p>
+        <p>ya disponible</p>
+      </div>
     </header>
   );
 }

@@ -1,0 +1,16 @@
+.music {
+  flex: 0 0 100%;
+  display: inherit;
+}
+.music article {
+  flex: 0 0 50%;
+  display: inherit;
+}
+.music article:first-of-type {
+  background-color: #282828;
+}
+.music article:first-of-type iframe {
+  flex: 0 0 100%;
+}
+
+/*# sourceMappingURL=music.module.css.map */

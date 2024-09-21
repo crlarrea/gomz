@@ -1,9 +1,9 @@
 .header {
   flex: 0 0 5%;
-  background-color: rgba(0, 0, 255, 0.3);
   padding: 1rem;
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
 }
 .header nav {
   flex: 0 0 50%;
@@ -14,6 +14,10 @@
   flex: 0 0 100%;
   display: flex;
   list-style-type: none;
+}
+
+.heroHeader {
+  background-color: rgba(0, 0, 255, 0.3);
 }
 
 /*# sourceMappingURL=header.module.css.map */
