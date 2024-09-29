@@ -1,28 +1,18 @@
 .music {
   flex: 0 0 100%;
   display: inherit;
+  background-color: rgba(blue, 0.3);
+
   article {
-    flex: 0 0 50%;
     display: inherit;
-    position: relative;
+
     &:first-of-type {
-      background-color: #282828;
-      iframe {
-        flex: 0 0 100%;
-      }
-    }
-    &:last-of-type {
+      flex: 0 0 60%;
       display: flex;
       flex-flow: column nowrap;
       justify-content: flex-end;
       align-items: center;
 
-      background: {
-        image: url("https://www.neo2.com/wp-content/uploads/2021/06/entrevista-gomz-raul-gomez-cantante-nuevo-single-de-cristal-03.jpg");
-        size: cover;
-        repeat: no-repeat;
-        position-y: -3rem;
-      }
       div {
         display: inherit;
         flex-flow: row nowrap;
@@ -43,6 +33,26 @@
             }
           }
         }
+      }
+      img {
+        position: absolute;
+        object-fit: cover;
+        z-index: -1;
+        filter: grayscale(1);
+      }
+    }
+    &:last-of-type {
+      flex: 0 0 40%;
+      justify-content: flex-end;
+      iframe {
+        position: absolute;
+        top: 0;
+        height: calc(100% - 6rem);
+        width: 40%;
+        background-color: #282828;
+        z-index: 0;
+
+        // height: 50%;
       }
     }
   }

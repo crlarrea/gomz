@@ -1,29 +1,19 @@
 .music {
   flex: 0 0 100%;
   display: inherit;
+  background-color: rgba(0, 0, 255, 0.3);
 }
 .music article {
-  flex: 0 0 50%;
   display: inherit;
-  position: relative;
 }
 .music article:first-of-type {
-  background-color: #282828;
-}
-.music article:first-of-type iframe {
-  flex: 0 0 100%;
-}
-.music article:last-of-type {
+  flex: 0 0 60%;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end;
   align-items: center;
-  background-image: url("https://www.neo2.com/wp-content/uploads/2021/06/entrevista-gomz-raul-gomez-cantante-nuevo-single-de-cristal-03.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-y: -3rem;
 }
-.music article:last-of-type div {
+.music article:first-of-type div {
   display: inherit;
   flex-flow: row nowrap;
   flex-flow: column nowrap;
@@ -31,13 +21,31 @@
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.6);
 }
-.music article:last-of-type div p {
+.music article:first-of-type div p {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.3rem;
 }
-.music article:last-of-type div p:last-of-type {
+.music article:first-of-type div p:last-of-type {
   font-size: 2rem;
+}
+.music article:first-of-type img {
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+  filter: grayscale(1);
+}
+.music article:last-of-type {
+  flex: 0 0 40%;
+  justify-content: flex-end;
+}
+.music article:last-of-type iframe {
+  position: absolute;
+  top: 0;
+  height: calc(100% - 6rem);
+  width: 40%;
+  background-color: #282828;
+  z-index: 0;
 }
 
 /*# sourceMappingURL=music.module.css.map */

@@ -1,10 +1,8 @@
 .bio {
   flex: 0 0 100%;
   display: flex;
-  background-image: url("https://i.ytimg.com/vi/BU5qUqtRTas/maxresdefault.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: 150px;
 }
 .bio article {
   flex: 0 0 50%;
@@ -18,6 +16,10 @@
 .bio article:first-of-type p {
   max-width: 55ch;
   text-align: justify;
+}
+.bio article:last-of-type img {
+  z-index: -1;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=bio.module.css.map */

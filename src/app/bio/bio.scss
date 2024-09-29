@@ -2,10 +2,10 @@
   flex: 0 0 100%;
   display: flex;
   background: {
-    image: url("https://i.ytimg.com/vi/BU5qUqtRTas/maxresdefault.jpg");
+    // image: url("https://www.tonyaguilar.es/wp-content/archivos/unnamed-84.jpg");
     size: cover;
     repeat: no-repeat;
-    position-x: 150px;
+    // position-x: 150px;
   }
   article{
     flex: 0 0 50%;
@@ -18,6 +18,13 @@
             max-width: 55ch;
             text-align: justify;
         }
+    }
+    &:last-of-type{
+      
+      img{
+        z-index: -1;
+        object-fit: cover;
+      }
     }
   }
 }

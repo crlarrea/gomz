@@ -16,7 +16,7 @@ export default function Header() {
   return (
     <header
       className={`${styles.header}  ${
-        pathName === "/" ? styles.heroHeader : ""
+        (pathName === "/" || pathName === '/music') ? styles.heroHeader : ""
       }`}
     >
       <nav>
