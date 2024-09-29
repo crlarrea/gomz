@@ -23,13 +23,21 @@
   background-repeat: no-repeat;
   background-position-y: -3rem;
 }
-.music article:last-of-type p {
+.music article:last-of-type div {
+  display: inherit;
+  flex-flow: row nowrap;
+  flex-flow: column nowrap;
+  width: 100%;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.music article:last-of-type div p {
   text-transform: uppercase;
+  text-align: center;
   letter-spacing: 0.3rem;
 }
-.music article:last-of-type p:last-of-type {
+.music article:last-of-type div p:last-of-type {
   font-size: 2rem;
-  padding: 0 0 1rem 0;
 }
 
 /*# sourceMappingURL=music.module.css.map */

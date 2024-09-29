@@ -23,21 +23,25 @@
         repeat: no-repeat;
         position-y: -3rem;
       }
-
-      p {
-        text: {
-          transform: uppercase;
-        }
-        letter-spacing: 0.3rem;
-
-        &:first-of-type {
-        }
-        &:last-of-type {
-          font: {
-            size: 2rem;
+      div {
+        display: inherit;
+        flex-flow: row nowrap;
+        flex-flow: column nowrap;
+        width: 100%;
+        padding: 1rem;
+        background-color: rgba(black, 0.6);
+        p {
+          text: {
+            transform: uppercase;
+            align: center;
           }
+          letter-spacing: 0.3rem;
 
-          padding: 0 0 1rem 0;
+          &:last-of-type {
+            font: {
+              size: 2rem;
+            }
+          }
         }
       }
     }

@@ -13,8 +13,10 @@ export default function Music() {
         ></iframe>
       </article>
       <article>
-        <p>ya disponible</p>
-        <p>&#171;muriendo en el cielo&#187;</p>
+        <div>
+          <p>ya disponible</p>
+          <p>&#171;muriendo en el cielo&#187;</p>
+        </div>
       </article>
     </section>
   );
