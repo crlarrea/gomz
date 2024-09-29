@@ -1,5 +1,5 @@
 import styles from "./streamingPlatforms.module.css";
-import { FaSpotify, FaYoutube, FaAmazon } from "react-icons/fa6";
+import { FaSpotify, FaYoutube, FaAmazon, FaSoundcloud } from "react-icons/fa6";
 import { SiApplemusic } from "react-icons/si";
 
 import Link from "next/link";
@@ -38,6 +38,11 @@ export default function streamingPlatforms() {
             target="_blank"
           >
             <SiApplemusic />
+          </Link>
+        </li>
+        <li>
+          <Link href="https://soundcloud.com/gomz-music" target="_blank">
+            <FaSoundcloud />
           </Link>
         </li>
       </ul>
