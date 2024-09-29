@@ -7,14 +7,11 @@
   src: url("/fonts/Manrope-ExtraBold.ttf");
 }
 .header {
-  flex: 0 0 10%;
-  padding: 1rem;
+  flex: 0 0 5%;
+  padding: 1rem 1rem 0 1rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-}
-.header nav {
-  flex: 0 0 50%;
 }
 .header nav ul {
   display: inherit;

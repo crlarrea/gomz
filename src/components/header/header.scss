@@ -1,14 +1,16 @@
 @import "../../app/SystemUI.scss";
 
 .header {
-  flex: 0 0 10%;
-  padding: 1rem;
+  flex: 0 0 5%;
+  padding: 1rem 1rem 0 1rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+    
   nav {
-    // background-color: red;
-    flex: 0 0 50%;
+    
+    
+    // flex: 0 0 50%;
     ul {
       display: inherit;
       column-gap: 2rem;
@@ -33,7 +35,10 @@
     flex-flow: column nowrap;
     row-gap: 0.2rem;
     align-items: flex-end;
-    padding:0;
+    padding: 0;
+
+    
+    
 
     a {
       display: inline-flex;
