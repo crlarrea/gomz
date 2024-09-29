@@ -5,8 +5,6 @@
   align-items: baseline;
   column-gap: 2rem;
 
-  //   border: 2px solid red;
-
   li {
     display: inline-flex;
     column-gap: 3;
@@ -25,7 +23,7 @@
       color: white;
 
       font: {
-        size: 1.5rem;
+        size: 1.2rem;
       }
     }
   }

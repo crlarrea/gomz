@@ -9,14 +9,19 @@
     flex: 0 0 50%;
     ul {
       display: inherit;
-     column-gap: 2rem;
+      column-gap: 2rem;
       flex: 0 0 100%;
       display: flex;
       list-style-type: none;
       li {
-        a {
-          padding: 0.3rem 1rem;
-          border-radius: 1rem;
+        text:{
+          transform: uppercase;
+        }
+        span {
+          display: block;
+          height: 2px;
+          background-color: white;
+          transition: all 1s;
         }
       }
     }
@@ -27,7 +32,14 @@
   background-color: rgba(blue, 0.3);
 }
 
+.inactive {
+  span {
+    transform: scale(0);
+  }
+}
+
 .active {
-  background-color: rgba(white,0.7);
-  color: black;
+  span {
+    transform: scale(1);
+  }
 }

@@ -22,13 +22,14 @@ export default function Header() {
         <ul>
           {links.map((link) => {
             return (
-              <li key={link.text}>
-                <Link
-                  href={link.path}
-                  className={pathName === link.path ? styles.active : ""}
-                >
-                  {link.text}
-                </Link>
+              <li
+                key={link.text}
+                className={
+                  pathName === link.path ? styles.active : styles.inactive
+                }
+              >
+                <Link href={link.path}>{link.text}</Link>
+                <span></span>
               </li>
             );
           })}

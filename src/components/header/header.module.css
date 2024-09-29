@@ -15,18 +15,26 @@
   display: flex;
   list-style-type: none;
 }
-.header nav ul li a {
-  padding: 0.3rem 1rem;
-  border-radius: 1rem;
+.header nav ul li {
+  text-transform: uppercase;
+}
+.header nav ul li span {
+  display: block;
+  height: 2px;
+  background-color: white;
+  transition: all 1s;
 }
 
 .heroHeader {
   background-color: rgba(0, 0, 255, 0.3);
 }
 
-.active {
-  background-color: rgba(255, 255, 255, 0.7);
-  color: black;
+.inactive span {
+  transform: scale(0);
+}
+
+.active span {
+  transform: scale(1);
 }
 
 /*# sourceMappingURL=header.module.css.map */
