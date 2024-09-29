@@ -40,12 +40,9 @@ footer {
 }
 
 main {
-  flex: 1 1 70%;
+  flex: 1 0 40%;
   justify-content: center;
-}
-
-footer {
-  flex: 0 0 15%;
+  overflow: scroll;
 }
 
 /*# sourceMappingURL=globals.css.map */

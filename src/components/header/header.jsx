@@ -2,6 +2,7 @@
 import Link from "next/link";
 import styles from "./header.module.css";
 import { usePathname } from "next/navigation";
+import { FaRegCirclePlay } from "react-icons/fa6";
 
 export default function Header() {
   const pathName = usePathname();
@@ -35,8 +36,13 @@ export default function Header() {
           })}
         </ul>
       </nav>
-      <div>
-        <p>Muriendo en el cielo</p>
+      <div
+        className={`${styles.header}  ${pathName === "/" ? "" : styles.hidden}`}
+      >
+        <Link href="https://ffm.to/muriendoenelcielo" target="_blank">
+          <FaRegCirclePlay />
+          Muriendo en el cielo
+        </Link>
         <p>ya disponible</p>
       </div>
     </header>

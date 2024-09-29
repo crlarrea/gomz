@@ -2,7 +2,11 @@
 const nextConfig = {
 
     images: {
-        remotePatterns: [{ protocol: "https", hostname: "p16-sign-useast2a.tiktokcdn.com" }],
+        remotePatterns: [{ protocol: "https", hostname: "p16-sign-useast2a.tiktokcdn.com" },
+          { protocol: "https", hostname: "static.wixstatic.com" },
+          { protocol: "https", hostname: "www.neo2.com" }
+
+        ],
       },
 };
 

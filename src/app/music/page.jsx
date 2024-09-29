@@ -1,4 +1,5 @@
-import styles from './music.module.css';
+import styles from "./music.module.css";
+
 export default function Music() {
   return (
     <section className={styles.music}>
@@ -11,7 +12,10 @@ export default function Music() {
           loading="lazy"
         ></iframe>
       </article>
-      <article></article>
+      <article>
+        <p>ya disponible</p>
+        <p>&#171;muriendo en el cielo&#187;</p>
+      </article>
     </section>
   );
 }

@@ -1,11 +1,6 @@
-@font-face {
-  font-family: "Extra Light";
-  src: url("/fonts/Manrope-ExtraLight.ttf");
-}
-@font-face {
-  font-family: "Extra Bold";
-  src: url("/fonts/Manrope-ExtraBold.ttf");
-}
+
+@import 'SystemUI.scss';
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -43,11 +38,13 @@ footer {
 }
 
 
+
 main {
-  flex: 1 1 70%;
+  flex: 1 0 40%;
   justify-content: center;
+  overflow: scroll;
   
 }
 footer {
-  flex: 0 0 15%;
+  // flex: 0 0 15%;
 }

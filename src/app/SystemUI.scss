@@ -1,3 +1,12 @@
 // colours
 
-$yellow900: #FFD700;
+$yellow900: #ffd700;
+
+@font-face {
+  font-family: "Extra Light";
+  src: url("/fonts/Manrope-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "Extra Bold";
+  src: url("/fonts/Manrope-ExtraBold.ttf");
+}

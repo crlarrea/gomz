@@ -1,5 +1,7 @@
+@import "../../app/SystemUI.scss";
+
 .header {
-  flex: 0 0 5%;
+  flex: 0 0 10%;
   padding: 1rem;
   display: flex;
   flex-flow: row wrap;
@@ -14,7 +16,7 @@
       display: flex;
       list-style-type: none;
       li {
-        text:{
+        text: {
           transform: uppercase;
         }
         span {
@@ -23,6 +25,36 @@
           background-color: white;
           transition: all 1s;
         }
+      }
+    }
+  }
+  div {
+    flex: 0 1 auto;
+    flex-flow: column nowrap;
+    row-gap: 0.2rem;
+    align-items: flex-end;
+    padding:0;
+
+    a {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 0.5rem;
+      border: 1px solid rgba(white, 0.3);
+      border-radius: 0.5rem;
+      padding: 0.5rem 1rem;
+
+      font: {
+        family: "Extra Bold";
+      }
+      &:hover{
+        transition: all 0.3s;
+        background-color: rgba(white,0.3);
+      }
+    }
+    p {
+      font: {
+        size: 0.8rem;
       }
     }
   }
@@ -42,4 +74,8 @@
   span {
     transform: scale(1);
   }
+}
+
+.hidden {
+  visibility: hidden;
 }

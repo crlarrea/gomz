@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className={styles.hero}>
       <article>
-        <video autoPlay loop muted>
+        <video autoPlay loop muted poster="https://static.wixstatic.com/media/2f40b5_50f0d9838b8441209218257a0c1368b3f000.jpg">
           <source
             src="https://video.wixstatic.com/video/2f40b5_50f0d9838b8441209218257a0c1368b3/1080p/mp4/file.mp4"
             type="video/mp4"
